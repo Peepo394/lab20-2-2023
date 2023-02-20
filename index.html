@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peerapat</title>
+</head>
+<body>
+    <h1><center>Welcome to Peerapat's Homepage</center></h1>
+    <p id="pee"></p>
+    <script>
+        window.alert("Well,What you looking for ?");
+        document.getElementById("pee").innerHTML = 1000/85;
+        console.log(4+5);
+        var age =16;
+        var lastName = "Khaocharoen";
+        var cars = ["Maclaren","Ford Mustang","BMW"];
+        var me ={firstName:"Peerapat",lastName:"Khaocharoen"};
+        console.log(me);
+        window.alert(JSON.stringify(me));
+        var x=69
+        var y=30
+        var z=(x+y)
+        document.getElementById("pee").innerHTML= z;
+        function myFunction(a,b)
+        {
+            x=a*b;
+            alert("ผลลัพธ์ของ a*b ="+x);
+
+        }
+        function Welcome(name1,name2)
+        {
+            
+            alert("Welcome "+name1+",คุณ "+name2 +" เจ๋งแจ๋ว")
+        }
+        a=2;
+        if(a==1){
+            alert("a มีค่าเท่ากับ 1");
+        }
+        a=0
+        if(a==1){alert("a มีค่าเท่ากับ 1");}
+        else if (a==2){alert("a มีค่าเท่ากับ 2")}
+        else{alert("a มีค่าไม่เท่ากับ 1");}
+        
+        function calculate(x)
+        {
+            if(x==1){alert("x มีค่าเท่ากับ 1");}
+            else if(x==2){alert("x มีค่าเท่ากับ 2");}
+            else{alert("x มีค่าไม่เท่ากับ 1");}
+        }
+        
+    </script>
+    <button onclick="this.innerHTML=Date()">วัน เวลา</button>
+    <button onclick="myFunction(50,7)">Click Me</button>
+    <button onclick="Welcome('Peepo','Peerapat')">ต้อนรับ </button>
+    <button onclick="calculate(50)">คำนวน </button>
+</body>
+</html>
